@@ -12,7 +12,11 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: ["dental-clinic-sage-iota.vercel.app"],
+  methods: ["POST", "GET", "DELETE", "UPDATE"],
+  credentials: true
+}));
 app.use(bodyParser.json());
 
 // Database connection
