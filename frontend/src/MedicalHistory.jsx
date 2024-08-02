@@ -54,7 +54,7 @@ function MedicalHistory() {
   return (
     <div>
       <h2>Medical History</h2>
-      <table table-responsiveclassName="table table-responsivetable-bordered">
+      <table table-responsive className="table table-responsivetable-bordered">
         <thead>
           <tr>
             <th>Name</th>
@@ -76,7 +76,7 @@ function MedicalHistory() {
           </tr>
         </tbody>
       </table>
-      <table table-responsiveclassName="table">
+      <table table-responsive className="table table-responsive">
         <thead>
           <tr>
             <th>Treatment</th>
